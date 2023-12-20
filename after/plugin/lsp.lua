@@ -87,6 +87,7 @@ end)
 lsp.format_on_save({
     servers = {
         ['prettier'] = { "javascript", "typescript", "html", "css", "scss", "json", "svelte" },
+        ['clangd'] = { "cpp" }
     }
 });
 
